@@ -1,6 +1,6 @@
 # .NET Web API - JonasCodingTest
 
-This project is a simple .NET Web API designed to manage company and employee information. It demonstrates key concepts like asynchronous programming, repository pattern, proper error handling with logging, and separation of concerns across different layers.
+This project is a straightforward .NET Web API for managing company and employee information. It showcases essential development principles, including asynchronous programming, the repository pattern, robust error handling with logging, and clear separation of concerns across multiple layers.
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
@@ -47,7 +47,7 @@ This project is a simple .NET Web API designed to manage company and employee in
 
    Set `WebApi` as the startup project and run it.
 
-5. **Import the Postman Collection**
+5. **Use the Postman UI**
 
    Call the endpoints
 
@@ -92,15 +92,15 @@ This project is a simple .NET Web API designed to manage company and employee in
 
 ### Companies Controller
 
-The `CompaniesController` provides endpoints to manage company information. Below are the available API endpoints:
+The `CompaniesController` provides endpoints to manage company information.
 
 ### Employees Controller
 
-The `EmployeesController` provides endpoints to manage employee information. Below are the available API endpoints:
+The `EmployeesController` provides endpoints to manage employee information.
 
 
 ## Error Handling and Logging
 
 The solution uses a logging framework i.e. nlog to capture and log errors. Implemented Global Exception handler, ensuring that every exception is logged, and the API returns a user-friendly response with relevant status codes.
 
-The solution uses polly for relisience of API's like use retrylogic from Polly.
+The solution uses polly for relisience of API's like use retrylogic from Polly and added unit tests as well. For unit tests I have used Nunit and Nsubstitute.
