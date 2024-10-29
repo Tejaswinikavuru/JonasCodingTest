@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentValidation.WebApi;
+using System;
 using System.Linq;
 using System.Web.Http;
 
@@ -11,6 +12,7 @@ namespace WebApi
         {
             //Web API configuration and services
 
+            config.Filters.Add(new GlobalExceptionFilter());
             //Web API routes
             config.MapHttpAttributeRoutes();
 

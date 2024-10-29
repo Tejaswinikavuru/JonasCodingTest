@@ -5,3 +5,17 @@
 /packages/
 /WebApi/Web.Debug.*
 /WebApi/Web.Release.config
+/.vs/JonasCodingTest/v17
+/.vs/JonasCodingTest/FileContentIndex
+/.vs/JonasCodingTest/config
+/.vs/JonasSoftware/v17
+/BusinessLayer.Model/.vs
+/DataAccessLayer/.vs
+/DataLayer.Model/.vs
+*.user
+/WebApi/.vs
+/BusinessLayer/.vs
+/WebApi/logs
+/UnitTests/UnitTests/bin/Debug/net6.0
+/UnitTests/UnitTests/obj
+/.vs/JonasCodingTest/DesignTimeBuild
